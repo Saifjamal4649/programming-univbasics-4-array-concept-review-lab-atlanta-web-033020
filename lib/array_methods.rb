@@ -3,10 +3,10 @@ def find_element_index(array, value_to_find)
   length.times do |index|
     if array[index] == value_to_find
       return array[index]
-    else 
-      return nil
+   
     end
   end
+  return nil
 end
 
 def find_max_value(array)
