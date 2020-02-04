@@ -26,11 +26,11 @@ def find_min_value(array)
   length.times do |index|
     if min > array[index]
       min = array[index]
-      return min
+      
 end
 end
 
-  
+  return min
   
   
 end
